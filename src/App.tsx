@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Top from './containers/pages/Top';
+import Doc from './containers/pages/Doc';
+import {RootContext} from './context/RootContext';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Router>
+        <RootContext.Provider
+        value={{
+          backgroundColor: "#000000",
+          example: "hogehoge",
+        }}
         >
-          Learn React
-        </a>
-      </header>
+          <Route exact path='/' component={Top}/>
+          <Route path='/docs' component={Doc}/>
+        </RootContext.Provider>
+      </Router>
     </div>
   );
 }
