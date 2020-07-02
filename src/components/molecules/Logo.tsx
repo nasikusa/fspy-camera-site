@@ -8,14 +8,10 @@ const style = css`
   width: 30px;
 `;
 
-
 function Logo() {
   return (
-    <div
-      className="logo"
-      css={style}
-    >
-        <LogoImage />
+    <div className="logo" css={style}>
+      <LogoImage />
     </div>
   );
 }

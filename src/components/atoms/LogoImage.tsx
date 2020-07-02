@@ -6,15 +6,8 @@ const style = css`
   height: 30px;
 `;
 
-
 function LogoImage() {
-  return (
-      <img 
-        src="https://fspy.io/assets/icon.png"
-        alt="logo"
-        css={style}
-      />
-  );
+  return <img src="https://fspy.io/assets/icon.png" alt="logo" css={style} />;
 }
 
 export default LogoImage;
