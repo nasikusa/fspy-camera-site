@@ -7,7 +7,7 @@ const style = css`
 `;
 
 function LogoImage() {
-  return <img src="https://fspy.io/assets/icon.png" alt="logo" css={style} />;
+  return <div>fspy camera loader</div>;
 }
 
 export default LogoImage;

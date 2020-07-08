@@ -3,9 +3,8 @@ import { css } from '@emotion/core';
 import LogoImage from '../atoms/LogoImage';
 
 const style = css`
+  display: flex;
   position: relative;
-  height: 30px;
-  width: 30px;
 `;
 
 function Logo() {
