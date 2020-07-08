@@ -36,6 +36,7 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "4.3.0",
     "fs-extra": "^8.1.0",
+    "github-markdown-css": "^4.0.0",
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
@@ -56,6 +57,7 @@
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
+    "react-markdown": "^4.3.1",
     "react-router-dom": "^5.2.0",
     "resolve": "1.15.0",
     "resolve-url-loader": "3.1.1",
@@ -63,13 +65,14 @@
     "semver": "6.3.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "2.3.5",
-    "three-fspy-camera-loader": "^2.4.1",
+    "three-fspy-camera-loader": "^2.4.2",
     "ts-pnp": "1.1.6",
     "typescript": "~3.7.2",
     "url-loader": "2.3.0",
     "webpack": "4.42.0",
     "webpack-dev-server": "3.10.3",
     "webpack-manifest-plugin": "2.2.0",
+    "whatwg-fetch": "^3.1.0",
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
@@ -179,8 +182,11 @@
     "emotion": "^10.0.27",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-webpack": "^0.12.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.4",
+    "ncp": "^2.0.0",
+    "npm-run-all": "^4.1.5",
     "prettier-eslint": "^11.0.0"
   }
 }
