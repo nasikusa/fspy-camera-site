@@ -79,7 +79,12 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "format": "prettier --write src/**/*.tsx"
+    "format": "run-s format:tsx format:ts",
+    "format:tsx": "prettier --write src/**/*.tsx",
+    "format:ts": "prettier --write src/**/*.ts",
+    "copyDocs:Public": "ncp ./node_modules/three-fspy-camera-loader/docs ./public/docs_resources",
+    "copyDocs:Build": "ncp ./node_modules/three-fspy-camera-loader/docs ./build/docs_resources",
+    "copyDocs": "run-s copyDocs:Public copyDocs:Build"
   },
   "eslintConfig": {
     "extends": [
