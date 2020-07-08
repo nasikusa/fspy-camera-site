@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Top from './containers/pages/Top';
 import Doc from './containers/pages/Doc';
-import { RootContext } from './context/RootContext';
+import RootContext from './context/RootContext';
 
 function App() {
   return (

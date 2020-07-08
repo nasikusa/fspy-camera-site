@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Head from '../organisms/Head';
 import Header from '../organisms/Header';
-import { RootContext } from '../../context/RootContext';
+import RootContext from '../../context/RootContext';
 
 function Doc() {
   const contextValue = useContext(RootContext);
