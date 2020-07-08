@@ -1,7 +1,6 @@
 {
   "name": "fspy-camera-site",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
     "@emotion/babel-preset-css-prop": "^10.0.27",
